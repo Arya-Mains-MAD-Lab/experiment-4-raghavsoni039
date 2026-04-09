@@ -1,0 +1,70 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_copy/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configurations and items that configure 
+# the VS Code experience for the project. In general, these should be tracked, 
+# but some developers prefer to keep them private.
+# .vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication logging
+/analysis_options.yaml
+
+# Android related
+**/android/**/generated/
+**/android/gen/
+**/android/gradle/
+**/android/local.properties
+**/android/project.properties
+**/android/ant-build/
+**/android/ant-gen/
+**/*.keystore
+**/*.jks
+
+# iOS related
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/App.framework
+**/ios/Flutter/App.podspec
+**/ios/Flutter/Flutter.framework
+**/ios/DerivedData/
+**/ios/.generated/
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/ephemeral/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS/Web/Linux/Windows specific builds
+**/macos/Flutter/ephemeral/
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+**/web/index.html.tmp
+
+# Exceptions to keep (optional)
+!**/android/app/src/main/res/drawable*/*.png
